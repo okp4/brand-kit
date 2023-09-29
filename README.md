@@ -1,4 +1,4 @@
-[![okp4 github banner](/assets/Okp4-banner-v2.webp)](https://okp4.network)
+[![okp4 github banner](https://raw.githubusercontent.com/okp4/.github/main/profile/static/okp4-banner-v2.webp)](https://okp4.network)
 
 # OKP4 Brand Kit
 
