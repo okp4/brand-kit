@@ -2,10 +2,10 @@ name: Lint
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
   workflow_dispatch:
 
@@ -33,7 +33,7 @@ jobs:
         with:
           args: "**/*.md"
 
-  lint-duplicate-files:
+  lint-duplicate-file:
     runs-on: ubuntu-22.04
     steps:
       - name: Check out repository
@@ -45,7 +45,7 @@ jobs:
       - name: Check for duplicate files
         run: |
           IFS=' ' read -ra FOLDERS <<< "$SOURCES"
-          DUPLICATE_FILES=$(fdupes -r "${FOLDERS[@]}") 
+          DUPLICATE_FILES=$(fdupes -r "${FOLDERS[@]}")
           if [ -n "$DUPLICATE_FILES" ]; then
               echo -e "❌ Duplicate files found:\n" >&2
               echo "$DUPLICATE_FILES" >&2
@@ -62,6 +62,26 @@ jobs:
             03-Covers
             04-OKP4-illustrations
             05-Social-network-templates
+
+  lint-kebab-file:
+    runs-on: ubuntu-22.04
+    strategy:
+      matrix:
+        path:
+          - 01-Logos
+          - 02-Graphic-guidelines
+          - 03-Covers
+          - 04-OKP4-illustrations
+          - 05-Social-network-templates
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Lint Image filenames (kebab-case)
+        uses: julie-ng/lowercase-linter@v1
+        with:
+          path: ${{ matrix.path }}
 
   lint-yaml:
     runs-on: ubuntu-22.04
