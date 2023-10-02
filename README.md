@@ -17,10 +17,10 @@ High-resolution and vector formats in various orientations and colors.
 
 | Symbol                                                | Wordmark                                                    |
 |-------------------------------------------------------|-------------------------------------------------------------|
-| <img src="01-Logos/OKP4-square-signs-ss-fond.png" width="60" alt="okp4-white"/>   | ![okp4-wordmark-dark](/01-Logos/Logos_OKP4_Horizontal_Dark.svg)   |
-| <img src="01-Logos/OKP4-square-signs-fondblanc.png" width="60" alt="okp4-white"/>   | ![okp4-wordmark-dark](/01-Logos/Logos_OKP4_Horizontal_light.svg)   |
-| <img src="01-Logos/OKP4-square-signs-ss-fond.png" width="60" alt="okp4-white"/> | ![okp4-wordmark-white](/01-Logos/Logos_OKP4_Vertical_dark.svg) |
-| <img src="01-Logos/OKP4-square-signs-fondblanc.png" width="60" alt="okp4-white"/> | ![okp4-wordmark-vertical](/01-Logos/Logos_OKP4_Vertical_light.svg) |
+| <img src="01-Logos/okp4-square-signs-white-bg.png" width="60" alt="okp4-white"/>   | ![okp4-wordmark-dark](/01-Logos/logos-okp4-horizontal-dark.svg)   |
+| <img src="01-Logos/okp4-square-signs-white-bg.png" width="60" alt="okp4-white"/>   | ![okp4-wordmark-dark](/01-Logos/logos-okp4-horizontal-light.svg)   |
+| <img src="01-Logos/okp4-square-signs-white-bg.png" width="60" alt="okp4-white"/> | ![okp4-wordmark-white](/01-Logos/logos-okp4-vertical-dark.svg) |
+| <img src="01-Logos/okp4-square-signs-white-bg.png" width="60" alt="okp4-white"/> | ![okp4-wordmark-vertical](/01-Logos/logos-okp4-vertical-light.svg) |
 
 ## 🌈 Graphic guidelines
 
